@@ -1,7 +1,7 @@
 // import React from 'react'
 import About from '../components/About'
 import Hero from '../components/Hero'
-import Project from '../components/project'
+import Project from "../components/Project";
 import Footer from "../components/Footer"
 
 const Home = () => {
