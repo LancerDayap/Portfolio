@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <footer>
+      <footer className="footer">
         <p>&copy; Lancer Dayap 2023. All Rights reserved</p>
       </footer>
     )

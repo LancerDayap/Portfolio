@@ -12,7 +12,10 @@ const Hero = () => {
           <h1>Full-Stack Website <br /> Developer</h1>
           <p>Hi. I'm Lancer Dayap. An aspiring junior Web developer. Philippines based Website Developer</p>
           <div className="hero-buttons">
-            <button className="cta">Download CV</button>
+            <a className="cta" class="btn btn-danger" role="button" href="https://docs.google.com/document/d/1G4HpUB5xIarFuow5VWa13xOF-3z7V3ma4m-ZJudxULU/edit?usp=drive_link"
+            download="Lancer Dayap Resume" target="blank">
+            Download CV
+          </a>
           </div>
         </div>
         <img src={heroimage} alt="" />

@@ -32,16 +32,21 @@ button {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: white;
-  position: sticky;
-  z-index: 1;
+  height: 100px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 
 .navbar .logo {
   font-family: 'Fasthand';
@@ -54,6 +59,10 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+}
+
+.navbar .container .link {
+  cursor: pointer;
 }
 
 .navbar nav {
@@ -71,6 +80,7 @@ button {
 .navbar a:hover  {
   transform: scale(110%);
   transition: .2s ease-in-out;
+  color: #5f425e;
 }
 
 .logo {
@@ -79,7 +89,7 @@ button {
 }
 
 .hero {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,25 +123,12 @@ button {
 }
 
 .hero .hero-buttons {
-  display: flex;
   margin-top: 25px;
+  display: flex;
 }
 
 .hero .hero-buttons button {
   padding: 1rem 1rem;
-  border-radius: 5px;
-}
-
-.hero .hero-buttons .cta {
-  background-color: var(--secondary);
-  color: var(--light);
-  transition: .3s;
-}
-
-.cta:hover {
-  transition: .3s;
-  font-weight: bold;
-  transform: scale(120%) translateX(8px) translateY(-2px)
 }
 
 .hero img {
@@ -182,7 +179,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 15rem;
 }
 
 section h1 {
@@ -216,52 +213,47 @@ section h1 {
 
 
 /* Projects */
-.projects {
-  margin: 5rem;
+.carousel-item img {
+  height: 530px;
+  object-fit: contain;
+  margin-bottom: 11rem;
 }
 
-.projects h2 {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.project {
+.carousel-caption {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 1rem;
+  justify-content: center;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-.project h3 {
-  margin-bottom: 0.5rem;
+.cap {
+  width: 500px;
 }
 
-.project p {
-  margin-top: 0;
+.carousel-caption h3 {
+  font-size: 24px;
+  color: black;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: #d3a1c4;
-  border-radius: 50%;
-  padding: 1rem;
-  color: white;
+.carousel-caption p {
+  font-size: 16px;
+  color: black;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  width: 10%;
+.carousel-caption h6 {
+  font-size: 12px;
+  color: black;
+  margin-top: 10px;
 }
 
-.carousel-indicators li {
-  background-color: #d3a1c4;
-  border-radius: 50%;
-}
-
-.carousel-indicators .active {
-  background-color: #68485d;
-}
 
 
 
