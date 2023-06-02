@@ -40,7 +40,7 @@ function ControlledCarousel() {
           <h3>Movies for Junkies</h3>
           <p>A movie website that uses API from Rapid-API.</p>
           <h6>Tools | Javascript, ReactJS, React bootstrap PHP, MySQL</h6>
-          <a href="">livelink</a>
+          <a href="https://movies-for-junkies.onrender.com/">livelink</a>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -55,7 +55,7 @@ function ControlledCarousel() {
           <h3>Elegant Silver</h3>
           <p>A simple E-Commerce Project which consist of multi-page website.</p>
           <h6>Tools | HTML, CSS</h6>
-          <a href="">livelink</a>
+          <a href="https://esilver.onrender.com/">livelink</a>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
