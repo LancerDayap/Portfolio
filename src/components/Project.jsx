@@ -17,21 +17,6 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={project1}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <div className='cap'>
-            <h3>Shuriken</h3>
-            <p>A social media application that uses custom API. </p>
-            <h6>Tools |Javascript, ReactJS, Tailwind, PHP, MySQL</h6>
-            <a href="">livelink</a>
-          </div>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
           src={project2}
           alt="Second slide"
         />
