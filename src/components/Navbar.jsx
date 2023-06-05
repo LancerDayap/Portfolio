@@ -19,9 +19,9 @@ const Navbar = () => {
             <Link className="link" activeClass="active" to="projects" spy={true} smooth={true} offset={-150} duration={100}>
               Projects
             </Link>
-            <Link className="link" activeClass="active" to="footer" spy={true} smooth={true} offset={-150} duration={100}>
-              Contacts
-            </Link>
+            {/* <Link className="link" activeClass="active" to="contact-section" spy={true} smooth={true} offset={-100} duration={100}>
+              Contact
+            </Link> */}
           {/* <NavLink to="/" end>Home</NavLink>
           <NavLink to="/projects" end>Projects</NavLink>
           <NavLink to="/contact" end>Contact</NavLink> */}
