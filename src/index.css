@@ -273,6 +273,15 @@ section h1 {
   margin-top: 10px;
 }
 
+span.carousel-control-prev-icon {
+  background-color: #444444;
+  border-radius: 100%;
+
+}
+span.carousel-control-next-icon {
+  background-color: #444444;
+  border-radius: 100%;
+}
 
 
 
