@@ -14,9 +14,13 @@ const Hero = () => {
           <div className="hero-buttons">
             <a className="cta" class="btn btn-danger" role="button" href="https://docs.google.com/document/d/1G4HpUB5xIarFuow5VWa13xOF-3z7V3ma4m-ZJudxULU/edit?usp=drive_link"
             download="Lancer Dayap Resume" target="blank">
-            Download CV
+            View CV
           </a>
           </div>
+          <div class="hero-icons">
+            <a href="https://github.com/LancerDayap" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lancer-dayap-581518278/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
         </div>
         <img src={heroimage} alt="" />
       </div>

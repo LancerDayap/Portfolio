@@ -131,6 +131,25 @@ button {
   padding: 1rem 1rem;
 }
 
+.hero-icon-section {
+  margin: 20px;
+}
+
+.hero-icons {
+  display: flex;
+  align-content: center;
+  margin: 10px;
+
+}
+.hero-icons a {
+  margin: .4rem;
+}
+
+.hero-icons i {
+  font-size: 1.2rem;
+  color: black;
+}
+
 .hero img {
   width: 300px;
   height: 300px;
@@ -261,6 +280,9 @@ section h1 {
 /* footer */
 footer {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
   justify-content: center;
   background-color: #5f425e;
   color: var(--light);
@@ -270,6 +292,24 @@ footer {
 footer p {
   font-size: .7rem;
 }
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 1rem;
+  }
+  
+  .social-icons a {
+  margin: .4rem;
+  }
+  
+  .social-icons i {
+  font-size: 1.2rem;
+  color: white;
+  }
+  
 
 /* Media Queries */
 @media (max-width: 768px) {
